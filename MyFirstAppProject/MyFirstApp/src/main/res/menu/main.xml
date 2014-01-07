@@ -6,20 +6,20 @@
     <item
         android:id="@+id/patient_profile"
         android:icon="@drawable/ic_action_person"
-        android:showAsAction="always"
-        app:showAsAction = "always"
+        android:showAsAction="ifRoom"
+        app:showAsAction = "ifRoom"
         android:title="patient_profile"/>
     <item
         android:id="@+id/ask_patient"
         android:icon="@drawable/ic_action_person"
-        android:showAsAction="always"
-        app:showAsAction = "always"
+        android:showAsAction="ifRoom"
+        app:showAsAction = "ifRoom"
         android:title="ask_patient"/>
     <item
         android:id="@+id/medical_recs"
         android:icon="@drawable/ic_action_person"
-        android:showAsAction="always"
-        app:showAsAction = "always"
+        android:showAsAction="ifRoom"
+        app:showAsAction = "ifRoom"
         android:title="medical_recs"/>
 
     <item
@@ -30,7 +30,7 @@
         android:title="curr_patient"/>
     <item
         android:id="@+id/vital_signs"
-        android:icon="@drawable/ic_action_person"
+        android:icon="@drawable/redv"
         android:showAsAction="always"
         app:showAsAction = "always"
         android:title="vital_signs"/>
